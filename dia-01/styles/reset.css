@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --texto: #464646;
+  --texto-claro: #A3A3A3;
+  --fundo: linear-gradient(165.96deg, #F8F4FF 0%, #EFF0F4 100%);
+  --fundo-card: #FFF;
+
+  --cor-primaria: #4894FF;
+  --cor-secundaria: #FFB050;
+  --branco: #FFF;
+  --cinza: #ECECEC;
+  --cinza-secundario: #F6F6F6;
+}
+
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+button{
+  cursor: pointer;
+}

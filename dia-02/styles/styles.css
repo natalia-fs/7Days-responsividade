@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+@import url('./reset.css');
+@import url('./home.css');
+@import url('./consultas.css');
+@import url('./botoes.css');
+@import url('./rodape.css');
+@import url('./botao-flutuante.css');
+
+body{
+  background: var(--fundo);
+}
+
+strong{
+  color: var(--texto);
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}

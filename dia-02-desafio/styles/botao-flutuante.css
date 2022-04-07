@@ -1,0 +1,94 @@
+.botao__flutuante{
+  position: relative;
+}
+.botao__flutuante .botao__flutuante-cadastro{
+  position: absolute;
+  right: 16px;
+  bottom: 70px;
+
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  filter: drop-shadow(0 3px 6px #4894FF90);
+  z-index: 5;
+}
+
+button.botao__flutuante-cadastro span{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url('../assets/icons/Mais.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.botao__flutuante ul{
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  right: 0;
+  bottom: 0;
+  padding: 80vh 0 20px 0;
+  padding-bottom: 130px;
+
+  transition: .3s ease;
+	transform: scale(0);
+	transform-origin: 85% bottom;
+  background: radial-gradient(circle at bottom right, black, 20%, transparent);
+  z-index: 2;
+}
+
+.botao__flutuante-cadastro:focus + ul{
+  opacity: 1;
+	transform: scale(1);
+}
+
+.botao__flutuante>ul li{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+.botao__flutuante ul li>span{
+  display: flex;
+  align-items: center;
+  height: 24px;
+  font-size: 12px;
+  background: var(--branco);
+  border-radius: 20px;
+  padding: 0 8px;
+  margin-right: 4px;
+}
+
+button.botao__flutuante-item{
+  display: flex;
+
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: relative;
+  filter: drop-shadow(0 3px 6px #4894FF90);
+}
+button.botao__flutuante-item span{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.botao__flutuante-item span.local{
+  background-image: url('../assets/icons/Pin-btn.svg');
+}
+
+button.botao__flutuante-item span.remoto{
+  background-image: url('../assets/icons/Camera-btn.svg');
+}

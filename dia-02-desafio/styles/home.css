@@ -1,0 +1,23 @@
+section.home{
+  display: flex;
+  align-items: center;
+  height: 110px;
+  padding: 0 16px;
+}
+
+.home>img{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+}
+
+.home .home__info strong{
+  font-size: 22px;
+}
+
+.home .home__info p{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--texto-claro);
+}

@@ -1,0 +1,16 @@
+
+.btn-primario{
+  border: none;
+  background: var(--cor-primaria);
+  color: var(--branco);
+}
+.btn-secundario{
+  border: none;
+  background: var(--cor-secundaria);
+  color: var(--branco);
+}
+
+.btn-terciario{
+  background: var(--branco);
+  border: 1px solid var(--cinza);
+}
